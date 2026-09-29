@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Baibol's Portfolio</title>
+</head>
+<body>
+
+<header>
+  <h1>Baibol's Portfolio</h1>
+  <p>Web Programming student · Ala-Too College</p>
+  <nav>
+    <a href="#about">About</a> |
+    <a href="#skills">Skills</a> |
+    <a href="#work">Work</a> |
+    <a href="#contact">Contact</a>
+  </nav>
+  <hr>
+</header>
+
+<main>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="c:\Users\user\AppData\Local\Temp\Rar$DRa4952.34697.rartemp\profile.svg" alt="Portrait of Baibol" width="150">
+    <p>Hello! I am Baibol. I study web programming and build my first portfolio with HTML.</p>
+    <details>
+      <summary>What am I learning now?</summary>
+      <p>HTML, forms, images, audio and video.</p>
+    </details>
+    <hr>
+  </section>
+
+  <section id="skills">
+    <h2>My Skills</h2>
+    <ul>
+      <li>HTML page structure</li>
+      <li>Images and links</li>
+      <li>Forms and media</li>
+    </ul>
+
+    <p>
+      <label for="done">Portfolio sections completed:</label>
+      <progress id="done" value="3" max="5">3 of 5</progress> 3 of 5
+    </p>
+
+    <p>
+      <label for="check">HTML self-check:</label>
+      <meter id="check" min="0" max="100" value="70" low="50" high="90">70</meter> 70 / 100
+    </p>
+
+    <p>Today's written result: 3 completed sections</p>
+    <hr>
+  </section>
+
+  <section id="work">
+    <h2>My Work</h2>
+
+    <h3>Short introduction</h3>
+    <p>Listen to a short sample audio file.</p>
+    <audio controls src="c:\Users\user\AppData\Local\Temp\Rar$DRa4952.39577.rartemp\intro.wav"></audio>
+
+    <h3>Portfolio preview</h3>
+    <p>A short example video stored in the same portfolio folder.</p>
+    <video controls width="500" src="c:\Users\user\AppData\Local\Temp\Rar$DRa4952.41844.rartemp\portfolio-demo.mp4"></video>
+    <hr>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>This is a practice form. It does not send a message yet.</p>
+
+    <form>
+      <fieldset>
+        <legend>Your message</legend>
+
+        <p>
+          <label for="name">Name</label><br>
+          <input type="text" id="name" name="name">
+        </p>
+
+        <p>
+          <label for="email">Email</label><br>
+          <input type="email" id="email" name="email">
+        </p>
+
+        <p>
+          <label for="message">Message</label><br>
+          <textarea id="message" name="message" rows="4" cols="40"></textarea>
+        </p>
+
+        <button type="submit">Send</button>
+        <button type="reset">Clear</button>
+      </fieldset>
+    </form>
+  </section>
+
+</main>
+
+</body>
+</html>
